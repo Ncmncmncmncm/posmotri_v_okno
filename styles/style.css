@@ -69,7 +69,7 @@ ol {
   object-fit: cover;
   object-position: center;
   min-inline-size: 711px;
-  min-block-size: 386px;
+  block-size: 380px;
 }
 
 .content__list-item:not(:last-child) {
