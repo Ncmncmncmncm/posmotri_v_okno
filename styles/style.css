@@ -69,11 +69,11 @@ ol {
   object-fit: cover;
   object-position: center;
   min-inline-size: 711px;
-  block-size: 380px;
+  block-size: 386px;
 }
 
 .content__list-item:not(:last-child) {
-  padding-bottom: 30px;
+margin-bottom: 30px;
 }
 
 .content__video-card {
@@ -110,7 +110,7 @@ ol {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
@@ -118,7 +118,7 @@ ol {
   text-transform: uppercase;
 }
 
-.title .content__accent {
+.content__accent {
   color: #545050;
 }
 
@@ -129,9 +129,13 @@ ol {
   text-decoration: none;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: Oswald;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -167,7 +171,7 @@ ol {
   border-right: none;
   border-bottom: 1px solid #fff;
   border-left: none;
-  color: #fff;
+  color: rgb(255 255 255 / .7);
   font-family: inherit;
   font-weight: 400;
   font-size: 18px;
@@ -178,6 +182,7 @@ ol {
   min-inline-size: 225px;
   min-block-size: 27px;
   appearance: none;
+  cursor: pointer;
 }
 
 .search-form__textfield:focus {
@@ -237,7 +242,6 @@ ol {
 
 .button {
   border: 1px solid #fff;
-  outline: none;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
@@ -247,6 +251,11 @@ ol {
   background-color: transparent;
   cursor: pointer;
   min-block-size: 34px;
+  appearance: none;
+}
+
+.more-button {
+  inline-size: 100%;
 }
 
 .button:active {
@@ -257,9 +266,20 @@ ol {
   text-decoration: underline;
 }
 
+.button:focus {
+  outline: none;
+}
+
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 1px;
+}
+
+.more-button:focus {
+  outline: none;
+}
+
+.more-button:focus-visible {
+  outline: 1px solid #fff;
 }
 
 .button.search-form__submit-button {
