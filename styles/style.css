@@ -63,15 +63,13 @@ ol {
 .result__video-container {
   position: relative;
   margin-bottom: 16px;
-  min-block-size: 386px;
-  min-inline-size: 711px;
 }
 
 .result__video {
   object-fit: cover;
   object-position: center;
-  inline-size: 100%;
-  block-size: 100%;
+  min-inline-size: 711px;
+  min-block-size: 386px;
 }
 
 .content__list-item:not(:last-child) {
@@ -208,7 +206,7 @@ ol {
   gap: 15px;
 }
 
-.search-form__checkbox-list > .search-form__label:hover{
+.search-form__checkbox-list > .search-form__label:hover {
   text-decoration: underline;
 }
 
@@ -226,8 +224,6 @@ ol {
   margin: 1px 0 0 1px;
   background-color: #fff;
 }
-
-
 
 .visually-hidden {
   position: absolute;
