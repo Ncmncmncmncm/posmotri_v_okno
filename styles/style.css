@@ -32,7 +32,7 @@ ol {
   align-items: center;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   inline-size: 1200px;
@@ -73,7 +73,7 @@ ol {
 }
 
 .content__list-item:not(:last-child) {
-margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .content__video-card {
@@ -110,7 +110,7 @@ margin-bottom: 30px;
 }
 
 .title {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70.5px;
@@ -135,7 +135,7 @@ margin-bottom: 30px;
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
@@ -171,7 +171,7 @@ margin-bottom: 30px;
   border-right: none;
   border-bottom: 1px solid #fff;
   border-left: none;
-  color: rgb(255 255 255 / .7);
+  color: rgb(255 255 255 / 0.7);
   font-family: inherit;
   font-weight: 400;
   font-size: 18px;
@@ -179,10 +179,10 @@ margin-bottom: 30px;
   text-align: left;
   text-decoration: none;
   background-color: transparent;
+  cursor: pointer;
   min-inline-size: 225px;
   min-block-size: 27px;
   appearance: none;
-  cursor: pointer;
 }
 
 .search-form__textfield:focus {
@@ -271,14 +271,6 @@ margin-bottom: 30px;
 }
 
 .button:focus-visible {
-  outline: 1px solid #fff;
-}
-
-.more-button:focus {
-  outline: none;
-}
-
-.more-button:focus-visible {
   outline: 1px solid #fff;
 }
 
